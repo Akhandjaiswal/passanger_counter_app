@@ -18,10 +18,16 @@ function increment()
 function save()
 {
 
-    let countstr = countv + " - "
-    varpent.textContent += countstr
-    countv = 0
-    countEl.textContent= countv
+    if (countv!=0) {
+        let countstr = countv + " - "
+        varpent.textContent += countstr
+        countv = 0
+        countEl.textContent= countv
+            } 
+            
+            else {
 
+        }
+   
 
 }
