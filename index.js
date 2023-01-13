@@ -22,7 +22,7 @@ function save()
 if (countred==0)
 {
 
-    let countstr = countv + " - "
+    let countstr = countv 
     varpent.textContent += countstr
     countv = 0
     countEl.textContent= countv
